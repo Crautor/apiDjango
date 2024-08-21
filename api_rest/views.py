@@ -83,6 +83,7 @@ def deleteUser(request, id):
   try:
     data = User.objects.get(id=id)
     data.delete()
+    return Response(status=status.HTTP_200_OK)
   except:
     return Response(status=status.HTTP_404_NOT_FOUND)
   
