@@ -42,8 +42,8 @@ If you are on Windows and encounter issues executing the script, follow these st
 
 #### 1. Open ``Windows PowerShell`` as Administrator:
 
-    - Press the `Win` key and type `Windows PowerShell`.
-    - Right-click on `Windows PowerShell` and select `Run as administrator`.
+- Press the `Win` key and type `Windows PowerShell`.
+- Right-click on `Windows PowerShell` and select `Run as administrator`.
 
 
 #### 2. Set the execution policy to allow the script:
@@ -62,19 +62,19 @@ If you are on Windows and encounter issues executing the script, follow these st
 
 #
 
-#### 6. Change the Python interpreter in VS Code to the virtual environment:
+#### 7. Change the Python interpreter in VS Code to the virtual environment:
 
 - Press `Ctrl+Shift+P` to open the command palette.
 - Type `Python: Select Interpreter` and press `Enter`.
 - Choose the interpreter with `('venv':venv)` in its name.
 
-#### 7. Install the required packages:
+#### 8. Install the required packages:
 
 ````
     pip install -r requirements.txt
 ````
 
-#### 8. Run the development server:
+#### 9. Run the development server:
 
 ````
     py manage.py runserver
